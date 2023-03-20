@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrewComponent implements OnInit {
   
-  memberBeingEdited: object = null
+  memberBeingEdited: object = null;
 
   crew: object[] = [
     {name: "Eileen Collins", firstMission: false},
